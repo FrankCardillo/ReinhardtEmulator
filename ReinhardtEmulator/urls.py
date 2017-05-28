@@ -18,5 +18,5 @@ from django.contrib import admin
 
 urlpatterns = [
     url(r'^index/', include('EmulationApplication.urls')),
-    url(r'^admin/', admin.site.urls)
+    url(r'^', include('EmulationApplication.urls'))
 ]
