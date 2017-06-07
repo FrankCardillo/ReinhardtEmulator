@@ -7,7 +7,7 @@ from rest_framework.response import Response
 from rest_framework import status, generics
 
 def index(request):
-    return HttpResponse('''<h1>Hello World!</h1>''')
+    return render(request, 'index.html')
 
 class UserList(generics.ListCreateAPIView):
     queryset = User.objects.all()
