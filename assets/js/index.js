@@ -5,7 +5,7 @@ var Hello = React.createClass ({
     render: function() {
         return (
             <h1>
-            Hello, React!
+            Change made so i can run my first codeship build!
             </h1>
         )
     }
